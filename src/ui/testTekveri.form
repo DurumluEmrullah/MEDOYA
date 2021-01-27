@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.testTekveri">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1527" height="529"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="a4646" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b762" class="javax.swing.JTextArea" binding="sonuclar">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="1c468" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="d94bc" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Cevap Sayısı"/>
+            </properties>
+          </component>
+          <component id="79c33" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Haberi Paylasan Kullanıcı"/>
+            </properties>
+          </component>
+          <component id="6b7fb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="ReTweet Saısı"/>
+            </properties>
+          </component>
+          <component id="7f3d2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Like Sayısı"/>
+            </properties>
+          </component>
+          <component id="87418" class="javax.swing.JTextField" binding="cevapSayisi">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="79ae3" class="javax.swing.JTextField" binding="rtSayisi">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ae76d" class="javax.swing.JTextField" binding="likeSayisi">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="ccea1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="İddia Edilen Kulüp"/>
+            </properties>
+          </component>
+          <component id="a4a18" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Piyasa Değeri(Euro)"/>
+            </properties>
+          </component>
+          <component id="c32a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Paylaşan Hesabın Tipi"/>
+            </properties>
+          </component>
+          <component id="b999e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Paylaşan Hesap Takipçi Sayısı"/>
+            </properties>
+          </component>
+          <component id="7b106" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Kaç Gün Kaldı"/>
+            </properties>
+          </component>
+          <component id="832a0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Futbolcu"/>
+            </properties>
+          </component>
+          <component id="74146" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Sınıfı"/>
+            </properties>
+          </component>
+          <component id="2490b" class="javax.swing.JButton" binding="veriyiTestEtButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Veriyi Test Et"/>
+            </properties>
+          </component>
+          <component id="d2e15" class="javax.swing.JTextField" binding="kacGun">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a43d9" class="javax.swing.JTextField" binding="piyasaDegeri">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="1b4b6" class="javax.swing.JTextField" binding="followers">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="99b48" class="javax.swing.JComboBox" binding="sinif">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="D"/>
+                <item value="BY"/>
+                <item value="BZY"/>
+              </model>
+            </properties>
+          </component>
+          <component id="4c827" class="javax.swing.JComboBox" binding="hesapTipi">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="FanSayfasi"/>
+                <item value="Gazeteci"/>
+                <item value="SporKanali"/>
+                <item value="SporSitesi"/>
+                <item value="Taraftar"/>
+              </model>
+            </properties>
+          </component>
+          <component id="e390f" class="javax.swing.JComboBox" binding="kullanici">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="ASpor"/>
+                <item value="AhmetKonanc"/>
+                <item value="BBOSports"/>
+                <item value="BesiktasSport"/>
+                <item value="BursasporHaberlerii"/>
+                <item value="CimbomFacts"/>
+                <item value="Doktor"/>
+                <item value="Duhuliye"/>
+                <item value="ErsinSezer"/>
+                <item value="FENERBAHCE"/>
+                <item value="FenerEditor"/>
+                <item value="Fenerkolik"/>
+                <item value="Feneronline"/>
+                <item value="GUTI"/>
+                <item value="GalataSarayiEfendileri"/>
+                <item value="GalatasaraydanSonDakikalar"/>
+                <item value="GokmenOzcan"/>
+                <item value="Goztepe.Net"/>
+                <item value="GoztepeTV"/>
+                <item value="HaberKartal"/>
+                <item value="HakanDede"/>
+                <item value="HoloskoReyiz"/>
+                <item value="KramponSpor"/>
+                <item value="KramponluPisagor"/>
+                <item value="MedyaFener"/>
+                <item value="NTVSpor#MaskeniTak"/>
+                <item value="ObjektifSpor"/>
+                <item value="SiyahCoraplilar"/>
+                <item value="Siyahcoraplilar"/>
+                <item value="SoccerCimbom"/>
+                <item value="SonerKan"/>
+                <item value="TRTSpor"/>
+                <item value="Taraftar"/>
+                <item value="TrScouts"/>
+                <item value="TrabzonsporGazetesi"/>
+                <item value="TransferHaberleri"/>
+                <item value="beINSPORTSTurkiye"/>
+                <item value="cArsi"/>
+                <item value="oMERBARLIK"/>
+              </model>
+            </properties>
+          </component>
+          <component id="9b113" class="javax.swing.JComboBox" binding="kulup">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="AdanaDemirspor"/>
+                <item value="Alanyaspor"/>
+                <item value="Antalyaspor"/>
+                <item value="Avrupa"/>
+                <item value="AytemizAlanyaspor"/>
+                <item value="Basaksehir"/>
+                <item value="Benfica"/>
+                <item value="Besiktas"/>
+                <item value="Boluspor"/>
+                <item value="Chelsea"/>
+                <item value="DemirGrupSivasspor"/>
+                <item value="Denizlispor"/>
+                <item value="DinamoKiev"/>
+                <item value="Fenerbahce"/>
+                <item value="Fulham"/>
+                <item value="Galatasaray"/>
+                <item value="Gaziantep"/>
+                <item value="Goztepe"/>
+                <item value="Hamburg"/>
+                <item value="Hatayspor"/>
+                <item value="Kasimpasa"/>
+                <item value="Kozanspor"/>
+                <item value="Kulupsuz"/>
+                <item value="Lazio"/>
+                <item value="Leipzig"/>
+                <item value="Lille"/>
+                <item value="Lyon"/>
+                <item value="Malatyaspor"/>
+                <item value="Napoli"/>
+                <item value="Olimpiakos"/>
+                <item value="Olimpiyakos"/>
+                <item value="PSV"/>
+                <item value="Rennes"/>
+                <item value="Roma"/>
+                <item value="Samsunspor"/>
+                <item value="Sivasspor"/>
+                <item value="Toulouse"/>
+                <item value="Trabzonspor"/>
+                <item value="UdineseCalcio"/>
+                <item value="Y.Malatyaspor"/>
+                <item value="YeniMalatyaSpor"/>
+                <item value="kulupsuz"/>
+              </model>
+            </properties>
+          </component>
+          <component id="8ab87" class="javax.swing.JComboBox" binding="futbolcu">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Abdulkadiromur"/>
+                <item value="Aboubakar"/>
+                <item value="AdemBuyuk"/>
+                <item value="AlexanderSorloth"/>
+                <item value="AllahyarSayyadmanesh"/>
+                <item value="AnasTahiri"/>
+                <item value="AnastasiosBakasetas"/>
+                <item value="AndersonTalisca"/>
+                <item value="Andre"/>
+                <item value="AntonioColak"/>
+                <item value="ArdaTuran"/>
+                <item value="Bakasetas"/>
+                <item value="BalazsMegyeri"/>
+                <item value="Balotelli"/>
+                <item value="BarisSungur"/>
+                <item value="Bastos"/>
+                <item value="Begovic"/>
+                <item value="BenjaminTetteh"/>
+                <item value="BerkanİsmailKutlu"/>
+                <item value="BerkayPolat"/>
+                <item value="Berkayozcan"/>
+                <item value="BrahimDarri"/>
+                <item value="BrownIdeye"/>
+                <item value="BurakYilmaz"/>
+                <item value="CameronJerome"/>
+                <item value="CanerErkin"/>
+                <item value="Cengizunder"/>
+                <item value="CenkTosun"/>
+                <item value="Cenkozkacar"/>
+                <item value="ChrisSmalling"/>
+                <item value="Cisse"/>
+                <item value="DaCosta"/>
+                <item value="DaniloBarthel"/>
+                <item value="DarylMacon"/>
+                <item value="DavidSilva"/>
+                <item value="DenizKadah"/>
+                <item value="DiegoGodin"/>
+                <item value="DiegoPerotti"/>
+                <item value="DimitriosLimnios"/>
+                <item value="DomagojVida"/>
+                <item value="DyshawnPierre"/>
+                <item value="DzenanBurekovic"/>
+                <item value="EdinVisca"/>
+                <item value="EdinsonCavani"/>
+                <item value="EdisonCavani"/>
+                <item value="EfkanBekiroglu"/>
+                <item value="EmreKilinc"/>
+                <item value="EnnerValencia"/>
+                <item value="EnzoRoco"/>
+                <item value="EranZahavi"/>
+                <item value="EricMaximChoupo-Moting"/>
+                <item value="Fatihozturk"/>
+                <item value="FernandoZuqui"/>
+                <item value="FodaKoita"/>
+                <item value="FranciscoMontero"/>
+                <item value="GarryRodrigues"/>
+                <item value="Giuliano"/>
+                <item value="GokhanGonul"/>
+                <item value="GokhanTore"/>
+                <item value="Guilherme"/>
+                <item value="HasanAliKaldirim"/>
+                <item value="HugoRodallega"/>
+                <item value="JanVertonghen"/>
+                <item value="JeanMichaëlSeri"/>
+                <item value="JeremainLens"/>
+                <item value="JesseSekidika"/>
+                <item value="JimmyDurmaz"/>
+                <item value="JodyLukoki"/>
+                <item value="JohnathanHamilton"/>
+                <item value="JoseSosa"/>
+                <item value="JosefDeSouza"/>
+                <item value="JosefdeSouza"/>
+                <item value="KaiHavertz"/>
+                <item value="KeremAkturkoglu"/>
+                <item value="KeremCanAkyuz"/>
+                <item value="KevinStrootman"/>
+                <item value="KostasSloukas"/>
+                <item value="KévinGameiro"/>
+                <item value="LewisBaker"/>
+                <item value="LoicRemy"/>
+                <item value="LucasBiglia"/>
+                <item value="LusizGustavo"/>
+                <item value="MalangSarr"/>
+                <item value="MameThiam"/>
+                <item value="Mandzukic"/>
+                <item value="ManuelFernandes"/>
+                <item value="Marcao"/>
+                <item value="MarcelTisserand"/>
+                <item value="MarioBalotelli"/>
+                <item value="MauricioLemos"/>
+                <item value="MbwanaSamatta"/>
+                <item value="MertHakanYandas"/>
+                <item value="MichaelFrey"/>
+                <item value="MihaZajc"/>
+                <item value="Milik"/>
+                <item value="MirceaLucescu"/>
+                <item value="Moha"/>
+                <item value="MuhammedBayir"/>
+                <item value="MuhammetTahaTepe"/>
+                <item value="MustafaKapi"/>
+                <item value="NabilDirar"/>
+                <item value="NazimSangare"/>
+                <item value="NevenSubotic"/>
+                <item value="NicolaKalinic"/>
+                <item value="ObinnaNwobodo"/>
+                <item value="OghenekaroEtebo"/>
+                <item value="Ogulcancaglayan"/>
+                <item value="OguzhanBerber"/>
+                <item value="OkayYokuslu"/>
+                <item value="OliverGiroud"/>
+                <item value="PapissCisse"/>
+                <item value="PapissDembaCissé"/>
+                <item value="RadjaNainggolan"/>
+                <item value="Rafael"/>
+                <item value="Rizacalimbay"/>
+                <item value="RyanDonk"/>
+                <item value="SalomónRondón"/>
+                <item value="SamuelKalu"/>
+                <item value="Sedatsahinturk"/>
+                <item value="SemihKaya"/>
+                <item value="SinanGumus"/>
+                <item value="SonerAydogdu"/>
+                <item value="StefanoOkaka"/>
+                <item value="SteliosKitsiou"/>
+                <item value="TolgaCigerci"/>
+                <item value="TolgayArslan"/>
+                <item value="Ugurcancakir"/>
+                <item value="Ulanovas"/>
+                <item value="ValentinRosier"/>
+                <item value="VedatMuriqi"/>
+                <item value="VincentAboubakar"/>
+                <item value="ZeLuis"/>
+                <item value="omerErdogan"/>
+                <item value="omerFarukBeyaz"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

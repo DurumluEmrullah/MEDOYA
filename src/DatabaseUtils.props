@@ -1,0 +1,28 @@
+
+ jdbcDriver=com.mysql.jdbc.Driver
+ jdbcURL=jdbc:mysql://localhost:3306/deneme
+
+
+ # specific data types
+ string, getString() = 0;    --> nominal
+ boolean, getBoolean() = 1;  --> nominal
+ double, getDouble() = 2;    --> numeric
+ # byte, getByte() = 3;        --> numeric
+ # short, getByte()= 4;        --> numeric
+ int, getInteger() = 5;      --> numeric
+ # long, getLong() = 6;        --> numeric
+ # float, getFloat() = 7;      --> numeric
+ # date, getDate() = 8;        --> date
+ # text, getString() = 9;      --> string
+ # time, getTime() = 10;       --> date
+ # timestamp, getTime() = 11;  --> date
+
+
+ text=0
+ boolean=1
+ double=2
+ int4=5
+
+ CREATE_STRING=TEXT
+ CREATE_INT=INT
+ CREATE_DOUBLE=DOUBLE
